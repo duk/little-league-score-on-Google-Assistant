@@ -4,7 +4,7 @@ A Tutorial on how to make your Google Home tell you your town local sport team s
 ## Tools 
 
 * [Firebase](https://firebase.google.com) account
-* [API.io](https://api.io) account
+* [API.ai](https://api.ai) account
 * [PhantomJS](http://phantomjs.org/)
 * [Mailgun account](https://mailgun.com)
 * Google Home
