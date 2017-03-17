@@ -5,15 +5,14 @@ page.open('https://leagues.bluesombrero.com/Default.aspx?tabid=1170364&isLogin=T
     console.log("Status: " + status);
     if (status === "success") {
 
-        // only .evaluate has access to DOM. Any page manipulation should go inside .evaluate.
-        // I am just entering username, password then submit
+
         page.evaluate(function () {
             document.getElementById('dnn_ctr1253048_Register_ctl00_UserNameTextBox').value = 'username';
             document.getElementById('dnn_ctr1253048_Register_ctl00_Password').value = 'password';
             document.getElementById('dnn_ctr1253048_Register_ctl00_SingInButton').click();
         });
 
-        // submit login then you wait for 10 sec. This particular website is horribly slow. I am giving it enough time.
+        // submit login then you wait for 10 sec.
         setTimeout(function () {
             page.open('https://leagues.bluesombrero.com/Default.aspx?tabid=1171103&subctl=teamcalendar&teamid=124033#/schedule', function (status) {
                 if (status !== "success") {

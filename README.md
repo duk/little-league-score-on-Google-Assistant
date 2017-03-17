@@ -113,4 +113,6 @@ TODO
 
 TODO
 
+## 7. Ok, Google. Talk to personal scorekeeper
 
+TODO
