@@ -105,10 +105,12 @@ Then I added a cron job to send me an email every night at 2:30 am.
 Then add
 `30 2 * * * sh scrap.sh`
 
-## 5. I was happy, but not super happy.
+## 5. Saving scrapped data to Firebase Database
 
-I didn't even want to check email. I just wanted to talk to my Google Home to get the result whenever I want.
+TODO
 
-## 6. Behold API.io 
+## 6. Using Firebase Functions as Webhooks for API.AI
+
+TODO
 
 
