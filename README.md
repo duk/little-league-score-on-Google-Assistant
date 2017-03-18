@@ -180,6 +180,8 @@ Then I pass the stdout to curl to firebase database
 
 `/usr/local/bin/phantomjs /home/d3lee/phantomtest/scrapfirebase.js | curl -X POST -d @- 'https://YOUR.firebaseio.com/scores.json?auth=YOURKEY';`
 
+`your database auth key for your firebase project is NOT the same one as your project auth key` This tripped me for a long time. Also you can't use console.log() inside page.evaluate in phantomJS. And this tripped me even longer to figure out than firebase database auth one.
+
 ## 6. Using Firebase Functions as Webhooks for API.AI
 
 TODO
