@@ -182,10 +182,15 @@ Then I pass the stdout to curl to firebase database
 
 `your database auth key for your firebase project is NOT the same one as your project auth key` This tripped me for a long time. Also you can't use console.log() inside page.evaluate in phantomJS. And this tripped me even longer to figure out than firebase database auth one.
 
+Now you should have your little league teams scroes all saved up nicely in firebase database. We will use this as a response to API.AI webhook's request later.
+
 ## 6. Using Firebase Functions as Webhooks for API.AI
 
-TODO
+First, go watch this.
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9SUAuy9OJg4/0.jpg)](https://www.youtube.com/watch?v=9SUAuy9OJg4)
+
+_Preview on your Google Home expires pretty quickly. But you can extend it up to 24 hours or try this [trick](http://stackoverflow.com/questions/41088596/make-google-actions-development-project-preview-persist-longer)_
 ## 7. Ok, Google. Talk to personal scorekeeper
 
 TODO
